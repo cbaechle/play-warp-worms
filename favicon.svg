@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Warp Worms</title>
+  <circle cx="16" cy="17" r="13" fill="#ef7d57" stroke="#1a1c2c" stroke-width="2"/>
+  <circle cx="11.5" cy="13" r="4.2" fill="#f4f4f4"/>
+  <circle cx="20.5" cy="13" r="4.2" fill="#f4f4f4"/>
+  <circle cx="12.6" cy="13.6" r="2" fill="#1a1c2c"/>
+  <circle cx="21.6" cy="13.6" r="2" fill="#1a1c2c"/>
+</svg>

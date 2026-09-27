@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a1c2c" />
+    <meta name="description" content="Warp Worms warp playground: tune the per-turn warp, the grid and a test shot." />
+    <title>Warp Playground</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preload" href="./fonts/pixelify-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <style>@font-face{font-family:Pixelify Sans;src:url(fonts/pixelify-sans-latin.woff2)format("woff2");font-weight:400 700;font-style:normal;font-display:swap}html,body{color:#f4f4f4;background:#1a1c2c;height:100%;margin:0;font-family:Pixelify Sans,ui-monospace,monospace}#playground{height:100%;display:flex}#pg-canvas{touch-action:none;cursor:crosshair;flex:1;min-width:0;height:100%;display:block}#pg-panel{box-sizing:border-box;border-left:2px solid #333c57;flex:none;width:350px;padding:10px 12px 16px;font-size:13px;overflow-y:auto}#pg-panel h1{margin:0 0 4px;font-size:18px}#pg-panel h2{color:#ffcd75;border-bottom:1px solid #333c57;margin:12px 0 4px;font-size:13px}.pg-hint{color:#94b0c2;margin:0 0 4px;font-size:12px}.pg-row{grid-template-columns:84px 1fr 74px 34px;align-items:center;gap:4px;margin:2px 0;display:grid}.pg-row[hidden]{display:none}.pg-row.pg-check{grid-template-columns:20px 1fr}.pg-row.pg-select{grid-template-columns:84px 1fr}.pg-row.pg-number{grid-template-columns:84px 1fr 48px}.pg-row input[type=range]{accent-color:#41a6f6;width:100%;min-width:0}.pg-num,.pg-row select{box-sizing:border-box;color:#f4f4f4;background:#333c57;border:1px solid #566c86;border-radius:3px;width:100%;padding:1px 3px;font:12px ui-monospace,monospace}.pg-num{appearance:textfield}.pg-num::-webkit-inner-spin-button{appearance:none;margin:0}.pg-num::-webkit-outer-spin-button{appearance:none;margin:0}.pg-unit{color:#94b0c2;font-size:11px}.pg-label{color:#f4f4f4}.pg-readouts{grid-template-columns:112px 1fr;gap:2px 6px;margin:0;font:12px ui-monospace,monospace;display:grid}.pg-readouts dt{color:#94b0c2}.pg-readouts dd{overflow-wrap:anywhere;margin:0}.pg-bad{color:#ef7d57}.pg-fold{color:#f4f4f4;background:#b13e53;border-radius:3px;padding:0 5px;font-weight:700;display:inline-block}.pg-buttons{gap:6px;margin:12px 0 6px;display:flex}#pg-panel button{font:inherit;color:#1a1c2c;cursor:pointer;background:#ffcd75;border:0;border-radius:3px;padding:3px 10px}#pg-panel button:hover{background:#ef7d57}.pg-roll canvas{width:296px;height:44px;image-rendering:pixelated;display:block}.pg-roll-stats{color:#94b0c2;margin:4px 0;font-size:12px}.pg-roll-list{margin:0;padding-left:22px;font:11px ui-monospace,monospace}.pg-roll-list li{cursor:pointer}.pg-roll-list li:hover{color:#73eff7}.pg-copy-status{color:#a7f070;margin:6px 0 2px;font-size:12px}.pg-snippet{white-space:pre-wrap;overflow-wrap:anywhere;color:#94b0c2;-webkit-user-select:all;user-select:all;margin:0;font:11px ui-monospace,monospace}.pg-snippet:empty{display:none}</style>
+    <script type="module" crossorigin src="./assets/playground-BhPiJr7p.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/terrain-layer-reFXN8Y3.js">
+  </head>
+  <body>
+    <main id="playground">
+      <canvas id="pg-canvas" aria-label="Warp playground arena"></canvas>
+      <aside id="pg-panel"></aside>
+    </main>
+  </body>
+</html>
